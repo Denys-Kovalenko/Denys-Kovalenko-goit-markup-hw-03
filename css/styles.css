@@ -49,13 +49,13 @@ button {
 /* _________________* header *___________________ */
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .header-container{
     display: flex;
     align-items: center;
-    padding: 24px 0 24px;
 }
 
 .header-menu-link:hover,
@@ -183,7 +183,9 @@ button {
 
 /* ________________other друга секція____________ */
 
-.features {}
+.features {
+    padding: 120px 0;
+}
 
 .visually-hidden {
     position: absolute;
@@ -203,7 +205,6 @@ button {
 }
 
 .features-item {
-    padding: 120px 0 120px 0;
     width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -289,15 +290,16 @@ button {
 /* _______________Meta  четверта секція____________*/
 .meta {
     text-transform: capitalize;
+    padding: 120px 0;
 }
 
 .meta-container{
-    padding: 120px 0;
 }
 
 .meta-sub-container{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .meta-title {
