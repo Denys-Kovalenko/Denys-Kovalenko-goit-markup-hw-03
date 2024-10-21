@@ -55,7 +55,7 @@ button {
 .header-container{
     display: flex;
     align-items: center;
-    padding: 24px 0 24px
+    padding: 24px 0 24px;
 }
 
 .header-menu-link:hover,
@@ -117,7 +117,7 @@ button {
     margin-right: 40px;
 }
 
-.some-item: :last-child{
+.some-item:last-child{
     margin-right: 0
 }
 
@@ -200,10 +200,10 @@ button {
 .features-list {
     display: flex;
     gap: 24px;
-    padding: 120px 0 120px 0;
 }
 
 .features-item {
+    padding: 120px 0 120px 0;
     width: calc((100% - 3 * 24px) / 4);
 }
 
