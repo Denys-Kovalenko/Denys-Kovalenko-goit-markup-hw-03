@@ -179,9 +179,22 @@ button {
 
 .features {}
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    white-space: nowrap;
+}
+
 .features-list {
     display: flex;
     gap: 24px;
+    padding: 120px 0;
 }
 
 .features-item {
@@ -234,7 +247,12 @@ button {
 }
 
 .aside-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.aside-sub-container{
+    padding: 32px 0;
 }
 
 .aside-item-img {}
@@ -267,6 +285,14 @@ button {
     text-transform: capitalize;
 }
 
+.meta-container{
+    padding: 120px 0;
+}
+
+.meta-sub-container{
+    padding: 32px 16px;
+}
+
 .meta-title {
     font-weight: 700;
     font-size: 36px;
@@ -285,7 +311,9 @@ button {
    flex-basis:calc((100% - 2 * 24) / 3);
 }
 
-.meta-item {}
+.meta-item {
+    border: 1px solid #e7e9fc;
+}
 
 .meta-item-img {}
 
