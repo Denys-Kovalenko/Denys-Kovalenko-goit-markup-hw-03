@@ -50,7 +50,6 @@ button {
 
 .header-title {
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 .header-container{
@@ -89,7 +88,9 @@ button {
     gap: 40px;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
     font-weight: 500;
